@@ -150,14 +150,11 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: bold;
   color: #ffffff;
 }
-.section__title—-fire {
+.section__title--fire {
   position: relative;
 }
-.section__title—-fire::after {
+.section__title--fire::after {
   content: "";
-  /* position: absolute;
-  top: 0;
-  right: -12px; */
   display: inline-block;
   margin-left: 15px;
   width: 21px;
