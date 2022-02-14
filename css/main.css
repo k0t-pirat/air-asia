@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  margin: 0;
   font-family: 'Open Sans', Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.42;
@@ -110,16 +111,16 @@ h1, h2, h3, h4, h5, h6, p {
   text-decoration: none;
 }
 .info__workhours {
-  color: #98A4A8
-}
-.info__workhours:hover {
-  color: #ffffff;
-}
-.info__workhours--header {
+  color: #98A4A8;
   font-size: 13px;
   text-decoration: underline;
 }
-.info__workhours--footer {
+.info__workhours:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+.info__calls {
+  color: #9A9A9A;
   font-size: 11px;
 }
 
@@ -149,6 +150,20 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: bold;
   color: #ffffff;
 }
+.section__title—-fire {
+  position: relative;
+}
+.section__title—-fire::after {
+  content: "";
+  /* position: absolute;
+  top: 0;
+  right: -12px; */
+  display: inline-block;
+  margin-left: 15px;
+  width: 21px;
+  height: 28px;
+  background-image: url("../img/icon-flame.svg");
+}
 
 .main-content {
   margin-bottom: 55px ;
@@ -167,8 +182,15 @@ h1, h2, h3, h4, h5, h6, p {
 .tours__item:last-child {
   margin-right: 0;
 }
+.tours__image-wrapper {
+  width: 100%;
+  height: 144px;
+}
 .tours__image {
   display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .tours__content {
   width: 362px;
