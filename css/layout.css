@@ -57,3 +57,21 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 72px;
   line-height: 1.1;
 }
+
+.avatar {
+  width: 142px;
+  height: 142px;
+  border-radius: 50%;
+}
+
+.tag {
+  margin-right: 7px;
+  padding: 9px 17px;
+  font-size: 13px;
+  color: #303030;
+  border-radius: 50px;
+  background-color: #E7E7E7;
+}
+.tag--color--green {
+  background-color: #B9EAE4;
+}

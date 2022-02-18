@@ -5,7 +5,7 @@
 .breadcrumbs__item {
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 14px;
   color: #9A9A9A;
 }
 .breadcrumbs__item--active {

@@ -7,6 +7,10 @@
   background-color: #F4F5F5;
 }
 .inner-section__title {
-  margin-bottom: 65px;
+  margin-bottom: 53px;
   font-size: 48px;
+}
+.inner-section--padding--small {
+  padding-top: 62px;
+  padding-bottom: 99px;
 }
