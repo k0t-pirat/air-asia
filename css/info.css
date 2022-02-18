@@ -1,0 +1,23 @@
+.info {
+  font-style: normal;
+  text-align: right;
+}
+.info__tel {
+  display: block;
+  margin-bottom: -8px;
+  font-size: 26px;
+  text-decoration: none;
+}
+.info__workhours {
+  color: #98A4A8;
+  font-size: 13px;
+  text-decoration: underline;
+}
+.info__workhours:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+.info__calls {
+  color: #9A9A9A;
+  font-size: 11px;
+}

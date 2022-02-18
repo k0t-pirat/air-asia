@@ -1,0 +1,22 @@
+.navigation {
+  margin-left: 79px;
+}
+.navigation__list {
+  display: flex;
+  align-items: center;
+}
+.navigation__item {
+  margin-right: 50px;
+}
+.navigation__item:last-child {
+  margin-right: 0;
+}
+.navigation__item--active .navigation__link{
+  color: #DA0100;
+}
+.navigation__link {
+  font-size: 14px;
+}
+.navigation__link:hover {
+  color: #DA0100;
+}

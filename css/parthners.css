@@ -1,0 +1,22 @@
+.parthners {
+  display: flex;
+  flex-wrap: wrap;
+}
+.parthners__item {
+  margin-left: 45px;
+  margin-bottom: 25px;
+  filter: grayscale(100%);
+}
+.parthners__item:hover {
+  filter: grayscale(0);
+}
+.parthners__item:nth-child(4n+1) {
+  margin-left: 0;
+}
+.parthers__link {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 250px;
+  height: 100px;
+}

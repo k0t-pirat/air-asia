@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  padding: 17px 39px;
+  border-radius: 35px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #F5170E;
+  color: #ffffff;
+}
+.btn--theme-empty {
+  border: 1px solid #F5170E;
+  background-color: #ffffff;
+  color: #F5170E;
+}
+.btn--size--small {
+  padding: 17px 29px;
+}
+.btn:hover {
+  background-color: #F5170E;
+  color: #ffffff;
+}
