@@ -11,15 +11,6 @@
   background-color: #EDEDED;
   border-radius: 5px;
 }
-/* .dropdown::before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 0;
-  width: 100%;
-  height: 10px;
-  background-color: transparent;
-} */
 .dropdown::after {
   content: "";
   position: absolute;

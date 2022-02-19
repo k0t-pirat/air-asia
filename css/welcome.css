@@ -18,7 +18,7 @@
 }
 .animated--asia {
   opacity: 0;
-  animation: scaleJump 2s ease-in infinite;
+  animation: scaleJump 2s ease-in;
   animation-fill-mode: forwards;
 }
 .animated__text {
