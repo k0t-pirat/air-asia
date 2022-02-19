@@ -1,4 +1,5 @@
 .info {
+  position: relative;
   font-style: normal;
   text-align: right;
 }
@@ -11,13 +12,24 @@
 .info__workhours {
   color: #98A4A8;
   font-size: 13px;
-  text-decoration: underline;
 }
-.info__workhours:hover {
-  color: #ffffff;
+.info__workhours-title {
+  text-decoration: underline;
   cursor: pointer;
+}
+.info__workhours-title:hover {
+  color: #ffffff;
+}
+.info__workhours:hover .info__workhours-title ~ .info__dropdown {
+  display: block;
 }
 .info__calls {
   color: #9A9A9A;
   font-size: 11px;
+}
+.info__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
 }
