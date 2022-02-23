@@ -6,33 +6,46 @@
 }
 .social__item {
   margin-right: 10px;
+  width: 36px;
+  height: 36px;
 }
 .social__item:last-child {
   margin-right: 0;
 }
+.social__item:hover .social__link {
+  transition: background-image 0.3s;
+}
 .social__item--icon-telegram .social__link {
-  background-image: url("../img/icon-telegram.svg");
+  background-image: url("../img/sprite-social.png");
+  background-position: -122px -10px;
 }
 .social__item--icon-telegram:hover .social__link {
-  background-image: url("../img/icon-telegram-hover.svg");
+  background-image: url("../img/sprite-social.png");
+  background-position: -122px -66px;
 }
 .social__item--icon-vk .social__link {
-  background-image: url("../img/icon-vk.svg");
+  background-image: url("../img/sprite-social.png");
+  background-position: -10px -122px;
 }
 .social__item--icon-vk:hover .social__link {
-  background-image: url("../img/icon-vk-hover.svg");
+  background-image: url("../img/sprite-social.png");
+  background-position: -66px -122px;
 }
 .social__item--icon-fb .social__link {
-  background-image: url("../img/icon-fb.svg");
+  background-image: url("../img/sprite-social.png");
+  background-position: -10px -10px;
 }
 .social__item--icon-fb:hover .social__link {
-  background-image: url("../img/icon-fb-hover.svg");
+  background-image: url("../img/sprite-social.png");
+  background-position: -66px -10px;
 }
 .social__item--icon-insta .social__link {
-  background-image: url("../img/icon-insta.svg");
+  background-image: url("../img/sprite-social.png");
+  background-position: -10px -66px;
 }
 .social__item--icon-insta:hover .social__link {
-  background-image: url("../img/icon-insta-hover.svg");
+  background-image: url("../img/sprite-social.png");
+  background-position: -66px -66px;
 }
 .social__link {
   display: block;

@@ -9,6 +9,7 @@
 }
 .parthners__item:hover {
   filter: grayscale(0);
+  transition: filter 0.3s;
 }
 .parthners__item:nth-child(4n+1) {
   margin-left: 0;

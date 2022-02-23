@@ -19,17 +19,21 @@
 }
 .info__workhours-title:hover {
   color: #ffffff;
+  transition: color 0.3s;
 }
 .info__workhours:hover .info__workhours-title ~ .info__dropdown {
-  display: block;
+  opacity: 1;
+  left: auto;
+  right: 0;
+  transition: opacity 0.3s;
 }
 .info__calls {
   color: #9A9A9A;
   font-size: 11px;
 }
 .info__dropdown {
-  display: none;
   position: absolute;
   top: 100%;
-  right: 0;
+  left: -9999px;
+  opacity: 0;
 }

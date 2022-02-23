@@ -10,6 +10,7 @@
 .pagination--theme--light .pagination__item:hover {
   background-color: #F5170E;
   color: #ffffff;
+  transition: color 0.3s, background-color 0.3s;
 }
 .pagination--theme--light .pagination__item--active {
   background-color: #F5170E;
@@ -33,6 +34,7 @@
 .pagination__item:hover {
   background-color: #ffffff;
   color: #F5170E;
+  transition: color 0.3s, background-color 0.3s;
   cursor: pointer;
 }
 .pagination__item--active {

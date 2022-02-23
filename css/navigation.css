@@ -19,4 +19,5 @@
 }
 .navigation__link:hover {
   color: #DA0100;
+  transition: color 0.3s;
 }

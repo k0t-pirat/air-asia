@@ -19,7 +19,6 @@
 .reviews__header {
   display: flex;
   margin-bottom: 25px;
-  align-items: center;
 }
 .reviews__photo {
   margin-right: 22px;
@@ -45,6 +44,10 @@
 .reviews__tags {
   display: flex;
   align-items: flex-start;
+  flex-wrap: wrap;
+}
+.reviews__tag-item{
+  margin-bottom: 5px;
 }
 .reviews__title {
   margin-bottom: 25px;
